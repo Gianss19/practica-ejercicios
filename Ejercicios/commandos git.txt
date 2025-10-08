@@ -1,0 +1,44 @@
+Perfecto 👇 aquí tienes la **chuleta Git completa** con cada comando y una breve descripción, todo en una sola lista:
+
+---
+
+git config --global user.name "Tu Nombre" — configura tu nombre de usuario global
+git config --global user.email "[tu@email.com](mailto:tu@email.com)" — configura tu correo global
+git config --list — muestra la configuración actual
+
+git init — inicia un nuevo repositorio local
+git clone [https://github.com/usuario/repositorio.git](https://github.com/usuario/repositorio.git) — clona un repositorio remoto
+
+git status — muestra el estado actual de los archivos
+git diff — muestra las diferencias entre cambios sin guardar
+git add archivo.txt — agrega un archivo al área de preparación
+git add . — agrega todos los archivos modificados
+git commit -m "Mensaje de commit" — guarda los cambios con un mensaje
+
+git branch — muestra las ramas existentes
+git branch nombre-rama — crea una nueva rama
+git checkout nombre-rama — cambia a otra rama
+git checkout -b nombre-rama — crea y cambia a una nueva rama
+git branch -M main — renombra la rama actual a “main”
+
+git remote add origin [https://github.com/usuario/repositorio.git](https://github.com/usuario/repositorio.git) — conecta tu repo local con uno remoto
+git remote -v — muestra los repositorios remotos configurados
+git push -u origin main — sube la rama principal al remoto por primera vez
+git push — sube los commits nuevos
+git fetch — descarga información del remoto sin fusionar
+git pull — descarga y fusiona cambios del remoto
+
+git merge nombre-rama — fusiona otra rama con la actual
+git branch -d nombre-rama — elimina una rama local
+git push origin --delete nombre-rama — elimina una rama remota
+
+git checkout -- archivo.txt — descarta cambios no guardados en un archivo
+git reset archivo.txt — quita un archivo del área de preparación
+git revert HEAD — crea un nuevo commit que revierte el último
+git reset --hard <id_commit> — revierte todo el proyecto a un commit anterior (peligroso)
+
+git log — muestra el historial completo de commits
+git log --oneline --graph --all — muestra el historial en formato resumido y visual
+git show <id> — muestra los detalles de un commit específico
+
+---
