@@ -1,4 +1,9 @@
-let fConversion = 0;
+   /*
+                        Básico
+    Crea un programa que convierta grados Celsius a Fahrenheit y viceversa según un parámetro.
+    */
+
+
 function Conversion(valor,  tipo){
 if(tipo === "C"){
 
