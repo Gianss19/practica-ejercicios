@@ -8,6 +8,7 @@
  * @param {number} k
  * @return {boolean}
  */
-var hasIncreasingSubarrays = function(nums, k) {
-    
+function hasIncreasingSubarrays(nums, k) {
+  
+   
 };

@@ -13,12 +13,13 @@
 function twoSum(nums, target) {
         const map = new Map();
 
-    for (let index = 0; index < nums.length; index++) {
-        if(map.has(target - nums[index])) return [map.get(target-nums[index]), index];
-        else map.set(nums[index], index);
+    for (let i = 0; i < nums.length; i++) {
+        if(map.has(target - nums[i]))
+             return [map.get(target-nums[i]), i];
+        map.set(nums[i], i);
     }
     
 
 
 }
-twoSum([2,7,11,15], 9)
+twoSum([3, 1, 5, 7, 5], 10)

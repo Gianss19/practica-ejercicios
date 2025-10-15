@@ -1,0 +1,46 @@
+# Build Folders
+bin/
+obj/
+Debug/
+Release/
+
+# Rider / VS / VSCode
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# JetBrains Rider
+.idea/
+
+# Visual Studio cache/options
+*.VC.db
+*.VC.opendb
+
+# local archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.lnk
+*.docx
+*.xlsx
+*.pptx
+*.xlsm
